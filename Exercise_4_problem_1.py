@@ -19,7 +19,10 @@
 # - Adding comments in your code and a docstring that explains how to use your `fahr_to_celsius` function (i.e., you should write the purpose of the function, parameters, and returned values)
 
 # YOUR CODE HERE
-
+def fahr_to_celsius(temp_fahrenheit):
+  converted_temp =(temp_fahrenheit-32)/1.8
+  return converted_temp
+print("32 degrees Fahrenheit in Celsius is:", fahr_to_celsius(32))
 # ### Problem 1 tests
 # 
 # Check that the function produces correct answers for:
